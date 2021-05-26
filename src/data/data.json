@@ -33,7 +33,7 @@
             "title": "Professional Work",
             "projects": [
                 {
-                    "ref": "my_site/rvs",
+                    "ref": "/rvs",
                     "imgID": 1,
                     "desc": "Remote Vehicle Setup -Mustang Mach-E"
                 },

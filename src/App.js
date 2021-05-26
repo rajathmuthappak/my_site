@@ -14,7 +14,7 @@ import data from "./data/data.json"
 import Footer from "./components/footer/footer"
 
 function App() {
-
+console.log(window.location.href)
   return (
     <>
       <Router>
@@ -27,7 +27,7 @@ function App() {
                   {...props}
                   name={data} />
               )} />
-            <Route path="/my_site/rvs"
+            <Route path="/rvs"
               render={props => (
                 <RemoteVehicleSetup
                   {...props}
