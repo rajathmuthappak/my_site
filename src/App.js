@@ -21,13 +21,13 @@ function App() {
         <div className="App">
           <Switch>
             <Route
-              path="/" exact
+              path="/my_site/" exact
               render={props => (
                 <Home
                   {...props}
                   name={data} />
               )} />
-            <Route path="/rvs"
+            <Route path="/my_site/rvs"
               render={props => (
                 <RemoteVehicleSetup
                   {...props}
