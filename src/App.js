@@ -27,7 +27,7 @@ function App() {
                   {...props}
                   name={data} />
               )} />
-            <Route path="/rvs"
+            <Route path="/my_site/rvs"
               render={props => (
                 <RemoteVehicleSetup
                   {...props}
