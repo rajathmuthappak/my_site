@@ -21,7 +21,7 @@ function App() {
         <div className="App">
           <Switch>
             <Route
-              path="/my_site/" exact
+              path="/" exact
               render={props => (
                 <Home
                   {...props}
